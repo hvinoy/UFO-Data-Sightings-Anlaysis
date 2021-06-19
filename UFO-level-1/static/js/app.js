@@ -72,3 +72,4 @@ function dataUpload() {
         cell.text(value); //adds the value to the page
         });
     });
+}

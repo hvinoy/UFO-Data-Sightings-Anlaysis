@@ -16,9 +16,12 @@ tableData.forEach(function(ufodata) { //loop through each report in data
     });
 });
 
-function dataUpload() {
+function dataUpload(data) {
+    data.forEach(function(sighting) { //loop through each report in data
+    console.log(sighting);
+    tbody.html("");
     var row = tbody.append("tr");
-    Object.entries(tableData).forEach(function([key, value]) {  //get the key and values of each category in a ufo sighting
+    Object.entries(sighting).forEach(function([key, value]) {  //get the key and values of each category in a ufo sighting
     console.log(key, value);
 //Append a cell to the row for each value
     var cell = row.append("td"); //append td to page to add the value

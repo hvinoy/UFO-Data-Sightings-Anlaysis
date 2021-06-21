@@ -6,7 +6,6 @@ var tbody = d3.select("tbody");
 
 
 
-
 // adding data to the page from data.js
 tableData.forEach(function(ufodata) { //loop through each report in data
     console.log(ufodata);
@@ -20,14 +19,18 @@ tableData.forEach(function(ufodata) { //loop through each report in data
 });
 
 
-
 //filtering data
 
 var button = d3.select("#filter-btn");
 var form = d3.select(".form-group");
 
+
+
 button.on("click", filter);
 form.on("submit",filter);
+
+
+
 
 
 function filter() {

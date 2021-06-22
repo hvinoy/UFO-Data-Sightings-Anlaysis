@@ -45,20 +45,20 @@ function filtering() {
     console.log(inputcountry);
 
     var filteredData=tableData;
-    if (inputdate){
+    if (inputdate != ""){
         filteredData = filteredData.filter(sighting => sighting.datetime === inputdate); 
     }
-    if (inputstate) {
+    if (inputstate != "") {
         filteredData = filteredData.filter(sighting => sighting.state === inputstate);
     }
-    if (inputcity) {
+    if (inputcity != "") {
         filteredData = filteredData.filter(sighting => sighting.city === inputcity);
     }
    
-    if (inputshape) {
+    if (inputshape != "") {
         filteredData = filteredData.filter(sighting => sighting.shape === inputshape);
     }
-    if (inputcountry) {
+    if (inputcountry != "") {
         filteredData = filteredData.filter(sighting => sighting.country === inputcountry);
     }
 

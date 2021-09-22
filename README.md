@@ -16,3 +16,5 @@ Used a date form in HTML document and wrote JavaScript code that will listen for
 Used multiple input tags and/or select dropdowns, wrote JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns.
 
 ![image](https://user-images.githubusercontent.com/78995175/134273031-3edcef2b-ed2e-4247-a0c8-c88a1464560f.png)
+
+Sample of how filtering works:

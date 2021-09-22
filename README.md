@@ -3,3 +3,5 @@
 
 
 ![image](https://user-images.githubusercontent.com/78995175/134272579-08173424-8347-4a6f-94c4-a55473b67c76.png)
+
+Used the UFO dataset provided in the form of an array of JavaScript objects, wrote code that appends a table to the web page and then adds new rows of data for each UFO sighting.

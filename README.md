@@ -10,3 +10,8 @@ Used the UFO dataset provided in the form of an array of JavaScript objects, wro
 
 
 Used a date form in HTML document and wrote JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
+
+
+
+Used multiple input tags and/or select dropdowns, wrote JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns.
+

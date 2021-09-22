@@ -1,4 +1,4 @@
-# javascript-challenge
+# UFO Sightings
  Uses javascript to filter through table data on a webpage
 
 

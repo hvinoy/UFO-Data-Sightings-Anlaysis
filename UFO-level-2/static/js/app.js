@@ -30,7 +30,7 @@ var form = d3.select(".form-group");
 button.on("click", filtering);
 form.on("submit",filtering);
 
-
+///////start filtering data///////listen to user input
 function filtering() {
     d3.event.preventDefault();
     var inputdate = d3.select("#datetime").property("value");
